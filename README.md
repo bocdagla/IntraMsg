@@ -1,2 +1,2 @@
 # IntraMsg
-Messaging appliocation that conectes with the Education Center Api 
+Messaging application that conects with the Education Center Api 
