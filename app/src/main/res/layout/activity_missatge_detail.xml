@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tomeu.intramsg.MissatgeDetailActivity">
+
+    <TextView
+        android:id="@+id/asunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:text="Asumpte" />
+
+        <TextView
+            android:id="@+id/data"
+            android:textColor="@color/colorNoImportance"
+            android:layout_below="@id/asunto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha"
+             />
+
+        <LinearLayout
+            android:id="@+id/informacioEmiRec"
+            android:layout_below="@id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="48dp">
+
+            <TextView
+                android:id="@+id/emisor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorSmallText"
+                android:text="Emisor" />
+
+            <TextView
+                android:id="@+id/receptor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorSmallText"
+                android:text="Receptor" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/missatge"
+            android:layout_below="@+id/informacioEmiRec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/colorBlack"
+            android:text="Missatge" />
+</RelativeLayout>

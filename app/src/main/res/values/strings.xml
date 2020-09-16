@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IntraMsg</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Nom de Usuari</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Entra</string>
+    <string name="action_sign_in_short">Entra</string>
+    <string name="title_activity_missatges">MissatgesActivity</string>
+    <string name="title_activity_main_missatges">MainMissatges</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
